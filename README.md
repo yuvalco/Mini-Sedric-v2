@@ -93,15 +93,26 @@ http://127.0.0.1:3000/hello?interaction_url=<url goes here>&trackers=["hello sir
 | Searched | Found |
 | ------ | ------ |
 | I believe they have the ability to keep the government running. |I think they have the capacity to be able to sustain the government  |     
+| he is still concerned about it. |And what he said he's concerned about when the U. S. Is gone. |     
+#### Input example:
+     ["He is still concerned about it." , "i believe they have the ability to keep the government running"]
+
 #### Output example:
 ```sh
 [
+    {
+        "sentence_idx": 3,
+        "start_word_idx": 0,
+        "end_word_idx": 14,
+        "tracker_value": "he is still concerned about it.",
+        "transcribe_value": "And what he said he's concerned about when the U. S. Is gone."
+    },
     {
         "sentence_idx": 12,
         "start_word_idx": 0,
         "end_word_idx": 17,
         "tracker_value": "i believe they have the ability to keep the government running",
-        "transcribe_value": "I think they have the capacity to be able to sustain the government"
+        "transcribe_value": "I think they have the capacity to be able to sustain the government to follow on that thought"
     }
 ]
 ```
