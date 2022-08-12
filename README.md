@@ -5,7 +5,7 @@ Serverless application that detects similarities and matches in an audio file.
 * Uses Spacy
 * AWS Lambda
 * AWS Transcribe
-* S3 bucket storge
+* S3 bucket storage
 * Mypy/ Python type annotations
 
 ## How to run
