@@ -1,7 +1,7 @@
 # Mini sedric
 ## AWS Serverless Lambda appliction
 
-Serverless application that detects similarities and matches in an audio file.
+Serverless application that detects similarities and matches within an audio file.
 * Uses Spacy
 * AWS Lambda
 * AWS Transcribe
